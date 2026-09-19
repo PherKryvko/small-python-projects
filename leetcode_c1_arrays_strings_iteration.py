@@ -1,15 +1,4 @@
 """
-4: Given:
-
-nums = [1, 3, 5, 8]
-
-return True if 8 exists, otherwise False.
-
-5: Which would you use when you need both position and value?
-
-for item in items
-or
-enumerate(items)
 
 6: What is the time complexity of looping through every element once?
 
@@ -74,8 +63,32 @@ class QuestionThree():
         for nums in num_array:
             if current_largest < nums:
                 current_largest = nums
-                
+
         return current_largest
+
+"""4: Given:
+
+nums = [1, 3, 5, 8]
+
+return True if 8 exists, otherwise False."""
+
+class QuestionFour():
+
+    @staticmethod
+    def eight_exist_check(nums):
+        if 8 in nums:
+            return True
+        return False
+
+"""
+5: Which would you use when you need both position and value?
+
+for item in items
+or
+enumerate(items)
+
+"""
+
 
 if __name__ == "__main__":
     nums = [3, 5, 2, 8, 1]
@@ -90,6 +103,11 @@ if __name__ == "__main__":
 
     nums_2 = [7, 2, 10, 4]
     result = QuestionThree.largest_num(nums_2)
+
+    print(result)
+
+    nums_3 = [1, 3, 5, 8]
+    result = QuestionFour.eight_exist_check(nums_3)
 
     print(result)
 
