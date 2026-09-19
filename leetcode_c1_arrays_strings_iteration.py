@@ -63,7 +63,7 @@ class QuestionTwo():
 
     @staticmethod
     def s_count(word):
-        tally = word.Count("s")
+        tally = word.count("s")
 
         return tally
 
