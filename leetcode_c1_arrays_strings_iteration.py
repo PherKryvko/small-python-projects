@@ -52,6 +52,20 @@ class QuestionOne():
 
         return total_greater
 
+"""
+2: Given:
+
+word = "mississippi"
+
+count how many times "s" appears.
+"""
+class QuestionTwo():
+
+    @staticmethod
+    def s_count(word):
+        tally = word.Count("s")
+
+        return tally
 
 if __name__ == "__main__":
     nums = [3, 5, 2, 8, 1]
@@ -60,4 +74,7 @@ if __name__ == "__main__":
 
     print(result)
 
+    result = QuestionTwo.s_count("mississippi")
+
+    print(result)
 
