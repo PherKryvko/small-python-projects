@@ -1,10 +1,18 @@
 """
 
-6: What is the time complexity of looping through every element once?
+5: Which would you use when you need both position and value?
+
+for item in items
+or
+enumerate(items)  THIS ONE
+ 
+
+
+6: What is the time complexity of looping through every element once?  O(n)
 
 7: What kind of variable is this:
 
-count = 0
+count = 0 is a state variable
 
 when it changes while looping?
 """
@@ -80,14 +88,9 @@ class QuestionFour():
             return True
         return False
 
-"""
-5: Which would you use when you need both position and value?
 
-for item in items
-or
-enumerate(items)
 
-"""
+
 
 
 if __name__ == "__main__":
