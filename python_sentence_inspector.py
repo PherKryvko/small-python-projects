@@ -1,5 +1,5 @@
 storing_sentence = """
-Sentence in a variable.
+Sentence in a variable. 
 Stored."""
 
 def print_char_count(sentence):
@@ -9,7 +9,7 @@ def first_last_char(sentence):
     print(f"First char: {sentence[0]}, and last char: {sentence[-1]}")
 
 def split_words_from_sentence(sentence):
-    split_words = sentence.split(" ")
+    split_words = sentence.split()
 
     for index, word in enumerate(split_words):
         print(f"{index} position for word: {word}")
@@ -19,7 +19,13 @@ def reverse_sentence(sentence):
 
 
 if __name__ == "__main__":
-    print(print_char_count(storing_sentence))
-    print(first_last_char(storing_sentence))
-    print(split_words_from_sentence(storing_sentence))
-    print(reverse_sentence(storing_sentence))
+    print_char_count(storing_sentence)
+
+    print("\nNEXT:")
+    first_last_char(storing_sentence)
+
+    print("\nNEXT:")
+    split_words_from_sentence(storing_sentence)
+
+    print("\nNEXT:")
+    reverse_sentence(storing_sentence)
