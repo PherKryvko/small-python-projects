@@ -114,3 +114,36 @@ if __name__ == "__main__":
 
     print(result)
 
+
+
+
+
+
+
+
+
+
+
+
+"""
+Create a function called get_doubled_evens(numbers) that:
+- Finds only the even numbers.
+- Doubles each of those numbers.
+- Returns them in a new list.
+- Does not modify the original list.
+"""
+
+def get_doubled_evens(numbers):
+    new_list=[]
+
+    for num in numbers:
+        if num % 2 == 0:
+            num = num * 2
+            new_list.append(num)
+    return new_list
+
+if __name__ == "__main__":
+    numbers = [4, 7, 2, 8, 3, 10]
+    get_doubled_evens(numbers)
+
+
