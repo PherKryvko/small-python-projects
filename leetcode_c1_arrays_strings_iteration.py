@@ -142,8 +142,71 @@ def get_doubled_evens(numbers):
             new_list.append(num)
     return new_list
 
+
+
+
+
+
+
+
+def is_palindrome(text):
+    left = 0
+    right = len(text) - 1
+
+    while left < right:
+        if text[left] != text[right]:
+            return False
+
+        # Update both pointers here
+        left+=1
+        right-=1
+
+    return True
+
+
+def reverse(text):
+    result = ""
+
+    for char in "dog":
+        result = char + result
+
+    print(result)  # god
+
+
+
+
+
 if __name__ == "__main__":
     numbers = [4, 7, 2, 8, 3, 10]
     get_doubled_evens(numbers)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
