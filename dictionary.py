@@ -70,3 +70,31 @@ if "Taylor" in dictionary:
     print("Yes")
 else:
     print("NO")
+
+
+"""
+Add "Jordan" with a rating of 78, pace of 91 and shooting of 84.
+
+Increase Alex's rating by 5.
+
+Print the names of all players whose pace is greater than 85.
+
+Safely print Morgan's rating, displaying "Player not found" if Morgan doesn't exist.
+"""
+
+dictionary["Jordan"] = {
+    "Rating": 70,
+    "Pace": 91,
+    "Shooting": 84
+}
+
+dictionary["Alex"]["Rating"] = 5
+
+for key, value in dictionary.items():
+    if value["Pace"] > 85:
+        print(f"{key}")
+
+if dictionary.get("Morgan"):
+    print(dictionary["Morgan"]["Rating"])
+else:
+    print("Player not found")
