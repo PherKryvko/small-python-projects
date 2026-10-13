@@ -98,3 +98,31 @@ if dictionary.get("Morgan"):
     print(dictionary["Morgan"]["Rating"])
 else:
     print("Player not found")
+
+
+
+"""
+LIST DICTIONARY
+
+Print Sam's rating.
+Add a new player, Casey, with a rating of 82.
+Loop through the list and print the names of every player with a rating of 85 or higher.
+"""
+
+
+players = [
+    {"Name": "Alex", "Rating": 88},
+    {"Name": "Sam", "Rating": 90},
+    {"Name": "Jordan", "Rating": 78}
+]
+
+# 1. Print Sam's rating
+print(players[1]["Rating"])
+
+# 2. Add Casey
+players.append({"Name": "Casey", "Rating": 82})
+
+# 3. Print players rated 85 or higher
+for player in players:
+    if player["Rating"] >= 85:
+        print(player["Name"])
