@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PuKrYpH5/O4=",
+  "dgSpecHash": "7wWxzcuenjo=",
   "success": true,
   "projectFilePath": "C:\\Users\\C\\Desktop\\SoftwareStudies\\MiniProjects\\MiniProjects.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\C\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.13\\microsoft.netcore.app.runtime.win-x64.10.0.13.nupkg.sha512",
+    "C:\\Users\\C\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.13.nupkg.sha512",
+    "C:\\Users\\C\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.13\\microsoft.aspnetcore.app.runtime.win-x64.10.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
