@@ -126,3 +126,16 @@ players.append({"Name": "Casey", "Rating": 82})
 for player in players:
     if player["Rating"] >= 85:
         print(player["Name"])
+
+"""
+Change Sam's rating to 95.
+Add Morgan with a rating of 86.
+Print the names of all players with a rating below 85.
+"""
+
+players[1]["Rating"] = 95
+players.append({"Name": "Morgan", "Rating": 86})
+
+for player in players:
+    if player["Rating"] < 85:
+        print(player["Name"])
