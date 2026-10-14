@@ -1,1 +1,9 @@
-print("Hello world")
+public class Practice
+{
+
+public static void Run(){
+    
+}
+
+
+}
